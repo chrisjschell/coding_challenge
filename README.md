@@ -1,7 +1,3 @@
-# Coding Challenge App
-
-A skeleton flask app to use for a coding challenge.
-
 ## Install:
 
 You can use a virtual environment (conda, venv, etc):
@@ -31,7 +27,7 @@ curl -i "http://127.0.0.1:5000/health-check"
 ```
 
 ```
-curl -i "http://127.0.0.1:5000/aggregate?bitbucket=ORG&github=ORG
+curl -i "http://127.0.0.1:5000/aggregate?bitbucket=ORG&github=ORG"
 ```
 
 ## Running the tests
