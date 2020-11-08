@@ -27,7 +27,7 @@ curl -i "http://127.0.0.1:5000/health-check"
 ```
 
 ```
-curl -i "http://127.0.0.1:5000/aggregate?bitbucket=ORG&github=ORG"
+curl -X GET "http://127.0.0.1:5000/aggregate?bitbucket=ORG&github=ORG"
 ```
 
 ## Running the tests
